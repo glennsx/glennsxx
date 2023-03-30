@@ -1,0 +1,63 @@
+header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        background-color: #333;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      }
+      
+      /* Style the logo and title */
+      header img {
+        height: 50px;
+        margin-right: 10px;
+      }
+      
+      header h1 {
+        font-size: 24px;
+        margin: 0;
+      }
+      h1{
+        text-align: center;
+      }
+      
+      /* Style the menu container */
+      .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 80px);
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      
+      /* Style the menu items */
+      .menu li {
+        margin: 20px 0;
+        list-style: none;
+        text-align: center;
+        width: 300px;
+      
+
+     
+      }
+      
+      /* Style the links in the menu */
+      .menu li a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 3px;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+      }
+      
+      /* Style the links in the menu on hover */
+      .menu li a:hover {
+        background-color: #ccc;
+        color: #666;
+      }
